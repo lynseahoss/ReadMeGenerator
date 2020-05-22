@@ -11,14 +11,27 @@ const questions = [
 {
     name: "username",
     type: "input",
-    message: "Enter your username",
+    message: "Enter your GitHub Username",
 
 },
 {
+    name: "projectName",
+    type: "input",
+    message: "Enter your Github Repository Link"
+},
+{
+    name: "license",
+    type: "list",
+    message: "Choose your license type",
+    choices: ["MIT", "Apache", "GNU", ]
+
+},
+
+{
     name: "color",
     type: "list",
-    message: "Choose your fave color",
-    choices: ["pink","purple", "blue"]
+    message: "Choose your favourite color",
+    choices: ["pink","purple", "blue", "black"]
 }
 ];
 
