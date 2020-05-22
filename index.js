@@ -31,7 +31,7 @@ const questions = [
     name: "color",
     type: "list",
     message: "Choose your favourite color",
-    choices: ["pink","purple", "blue", "black"]
+    choices: ["pink","purple", "green", "black"]
 }
 ];
 
