@@ -27,7 +27,12 @@ const questions = [
 {
     name: "install",
     type: "input",
-    message: "Enter the installation process"
+    message: "Enter the installation process of the project"
+},
+{
+    name: "usage",
+    type: "input",
+    message: "Enter the usage of project"
 },
 
 {
@@ -37,6 +42,12 @@ const questions = [
     choices: ["MIT", "Apache", "GNU", ]
 
 },
+{
+    name: "contributing",
+    type: "input",
+    message: "Enter the contibuting information of the project"
+},
+
 
 {
     name: "color",
