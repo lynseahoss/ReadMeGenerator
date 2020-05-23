@@ -4,6 +4,15 @@ function generateMarkdown(data) {
 
 ## ${data.description}
 
+## Table of Contents
+
+  * [Steps to Install](#install)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing Authors](#contributing)
+  * [Tests](#test)
+  * [Contact Information](#email)
+  * [Profile Image](#image) 
 `;
 }
 
