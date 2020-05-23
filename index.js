@@ -48,13 +48,25 @@ const questions = [
 },
 {
     name: "languages",
-    type: "input",
-    message: "Enter the Languages used on project"
+    type: "checkbox",
+    message: "Choose the Languages used on project",
+    choices: ["HTML/CSS", "JavaScript", "SwiftUI", "Java", "Python"]
 },
 {
     name: "Libraries",
+    type: "checkbox",
+    message: "Choose the Libraries used on project",
+    choices: ["jQuery", "React.js", "Angular.js"]
+},
+{
+    name: "css",
     type: "input",
-    message: "Enter the Libraries used on project"
+    message: "Enter the CSS Framework used on project"
+},
+{
+    name: "usage",
+    type: "input",
+    message: "Enter the User Story"
 },
 {
     name: "contributing",
