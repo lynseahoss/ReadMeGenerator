@@ -1,6 +1,6 @@
 function generateMarkdown(data) {
   return `
-# ${data.title}
+# ${data.title} ![${data.license}]
 
 ## ${data.description}
 
@@ -32,7 +32,9 @@ ${data.contributing}
 ## Tests Performed
 ${data.test}
 
-##
+## Contact Information
+${data.email}
+![User Img](${data.image})
 
 `;
 }
