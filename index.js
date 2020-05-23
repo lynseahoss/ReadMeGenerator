@@ -94,8 +94,11 @@ function init() {
         console.log("Woo!")
         
         //.then gives info back in an object form
-
-        writeToFile()
+        const finalMark = js(data)
+        writeToFile("", finalMark)
+        if (err){
+            return console.log(err)
+        }
     })
 }
 
