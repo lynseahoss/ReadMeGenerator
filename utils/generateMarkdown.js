@@ -1,8 +1,9 @@
 function generateMarkdown(data) {
   return `
-# ${data.title} ![${data.license}]
+# ${data.title} ![${data.license}]()
 
-## ${data.description}
+## Project Description
+${data.description}
 
 ## Table of Contents
 
