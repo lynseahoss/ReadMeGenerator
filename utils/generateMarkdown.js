@@ -15,27 +15,28 @@ ${data.description}
   * [Profile Image](#image) 
   
 
-### Steps to Install
+## Steps to Install
+  \`\`\`
   ${data.install}
+  \`\`\`
 
-
-### Purpose of Application
+## Purpose of Application
 ${data.usage} 
 
 
-### Project License
+## Project License
 ${data.license}
 
 
-### Contributing Authors
+## Contributing Authors
 ${data.contributing}
 
 
-### Tests Performed
+## Tests Performed
 ${data.test}
 
 
-### Contact Information
+## Contact Information
 ${data.email}
 
 
