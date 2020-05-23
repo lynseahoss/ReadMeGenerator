@@ -22,7 +22,7 @@ const questions = [
 {
     name: "description",
     type: "input",
-    message: "Enter the Title of your GitHub Repository"
+    message: "Enter a short description of your GitHub Repository"
 },
 {
     name: "install",
@@ -83,6 +83,7 @@ function init() {
         .then(res=> {
             res.data.color = answer.color
         })
+        console.log("Woo!")
         
         //.then gives info back in an object form
 
