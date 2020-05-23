@@ -32,9 +32,13 @@ const questions = [
 {
     name: "usage",
     type: "input",
-    message: "Enter the usage of project"
+    message: "Enter the User Story"
 },
-
+{
+    name: "acceptance",
+    type: "input",
+    message: "Enter the Acceptance Criteria"
+},
 {
     name: "license",
     type: "list",
@@ -43,9 +47,19 @@ const questions = [
 
 },
 {
+    name: "languages",
+    type: "input",
+    message: "Enter the Languages used on project"
+},
+{
+    name: "Libraries",
+    type: "input",
+    message: "Enter the Libraries used on project"
+},
+{
     name: "contributing",
     type: "input",
-    message: "Enter contibuting factors/ authors"
+    message: "Enter Team Members"
 },
 {
     name: "test",

@@ -7,12 +7,15 @@ function generateMarkdown(data) {
 ## Table of Contents
 
   * [Steps to Install](#install)
-  * [Usage](#usage)
+  * [User Story](#usage)
   * [License](#license)
   * [Contributing Authors](#contributing)
   * [Tests](#test)
   * [Contact Information](#email)
   * [Profile Image](#image) 
+  
+
+
 `;
 }
 
