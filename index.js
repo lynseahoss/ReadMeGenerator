@@ -39,7 +39,7 @@ const questions = [
     name: "license",
     type: "list",
     message: "Choose your license type",
-    choices: ["MIT", "Apache", "GNU", ]
+    choices: ["MIT", "Boost", "Apache", "GNU AGPLv3" ]
 
 },
 {
@@ -47,7 +47,16 @@ const questions = [
     type: "input",
     message: "Enter the contibuting information of the project"
 },
-
+{
+    name: "test",
+    type: "input",
+    message: "Enter the current running tests on project"
+},
+{
+    name: "quest1",
+    type: "input",
+    message: "Enter any questions for the project"
+},
 
 {
     name: "color",
