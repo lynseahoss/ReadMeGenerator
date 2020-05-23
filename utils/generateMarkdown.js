@@ -7,8 +7,7 @@ function generateMarkdown(data) {
 ## Table of Contents
 
   * [Steps to Install](#install)
-  * [User Story](#usage)
-  * [User Acceptance](#acceptance)
+  * [Purpose of Application](#usage)
   * [Project Technology](#technology)
   * [License](#license)
   * [Contributing Authors](#contributing)
@@ -22,7 +21,11 @@ function generateMarkdown(data) {
 
 
 ## User Story
-### ${data.usage}
+### ${data.usage} 
+
+
+## Project License
+### ${data.license}
 
 
 `;

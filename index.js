@@ -29,13 +29,9 @@ const questions = [
 {
     name: "usage",
     type: "input",
-    message: "Enter the User Story"
+    message: "Enter the purpose of this project"
 },
-{
-    name: "acceptance",
-    type: "input",
-    message: "Enter the Acceptance Criteria"
-},
+
 {
     name: "license",
     type: "list",
