@@ -55,18 +55,13 @@ const questions = [
 {
     name: "email",
     type: "input",
-    message: "Enter your email"
+    message: "Enter your email associated with Github"
 },
 {
     name: "image",
     type: "input",
     message: "Enter URL Link to profile picture"
-},
-{
-    name: "email",
-    type: "input",
-    message: "Enter your email associated with Github"
-},
+}
 
 ];
 
