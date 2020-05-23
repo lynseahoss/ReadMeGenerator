@@ -24,7 +24,8 @@ const questions = [
 {
     name: "install",
     type: "input",
-    message: "Enter the installation process of the project"
+    message: "Enter the command to run the project",
+    default: "npm i"
 },
 {
     name: "usage",
@@ -39,36 +40,16 @@ const questions = [
     choices: ["MIT", "Boost", "Apache 2.0", "GNU AGPLv3" ]
 
 },
-///// 
-///I am going to save this commented code so i can work on it in the future when I update my project
-// {
-//     name: "languages",
-//     type: "checkbox",
-//     message: "Choose the Languages used on project",
-//     choices: ["HTML/CSS", "JavaScript", "SwiftUI", "Java", "Python"]
-// },
-// {
-//     name: "Libraries",
-//     type: "list",
-//     message: "Choose the Libraries used on project",
-//     choices: ["jQuery", "React.js", "Angular.js"]
-// },
-// {
-//     name: "css",
-//     type: "list",
-//     message: "Choose the CSS Framework used on project",
-//     choices: ["BootStrap", "SemanticUi", "Bulma", "Foundation"]
-// },
-
 {
     name: "contributing",
     type: "input",
-    message: "Enter Contributing Authors"
+    message: "Enter what the user know about contributing to this repository"
 },
 {
     name: "test",
     type: "input",
-    message: "Enter the current/previous tests performed on project"
+    message: "Enter the command to test the project",
+    default: "npm test"
 },
 {
     name: "email",
