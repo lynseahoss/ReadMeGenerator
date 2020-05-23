@@ -6,7 +6,6 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Table of Contents
-
   * [Steps to Install](#install)
   * [Purpose of Application](#usage)
   * [License](#license)
@@ -17,11 +16,7 @@ ${data.description}
   
 
 ### Steps to Install
-
   ${data.install}
-  
-
-
 
 
 ### Purpose of Application
