@@ -45,7 +45,7 @@ const questions = [
 {
     name: "contributing",
     type: "input",
-    message: "Enter the contibuting information of the project"
+    message: "Enter contibuting factors/ authors"
 },
 {
     name: "test",
@@ -58,12 +58,6 @@ const questions = [
     message: "Enter any questions for the project"
 },
 
-{
-    name: "color",
-    type: "list",
-    message: "Choose your favourite color",
-    choices: ["pink","purple", "green", "black"]
-}
 ];
 
 function writeToFile(fileName, data) {
@@ -81,7 +75,7 @@ function init() {
         axios.get(`https://api.github.com/users/${answer.username}`) 
         //github api inside of .get()s githubURL + username (find out how to access github api username)
         .then(res=> {
-            // res.data.color = answer.color
+           
             res.data.title = answer.title
             res.data.description = answer.description
             res.data.install = answer.install
