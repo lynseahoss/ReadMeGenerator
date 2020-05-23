@@ -15,10 +15,21 @@ const questions = [
 
 },
 {
-    name: "projectName",
+    name: "projectTitle",
     type: "input",
-    message: "Enter your Github Repository Link"
+    message: "Enter the Title of your GitHub Repository"
 },
+{
+    name: "description",
+    type: "input",
+    message: "Enter the Title of your GitHub Repository"
+},
+{
+    name: "install",
+    type: "input",
+    message: "Enter the installation process"
+},
+
 {
     name: "license",
     type: "list",
