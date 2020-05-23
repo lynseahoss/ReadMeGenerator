@@ -21,12 +21,12 @@ Process of how to install project in terminal:
   ${data.install}
   \`\`\`
 
-## Purpose of Application
+## Purpose of Project
 ${data.usage} 
 
 
 ## Project License
-${data.license}
+This project is using the license ${data.license}
 
 
 ## Contributing Authors
