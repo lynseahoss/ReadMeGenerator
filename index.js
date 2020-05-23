@@ -69,7 +69,8 @@ function init() {
         //github api inside of .get()s githubURL + username (find out how to access github api username)
         .then(res=> {
             console.log(encodeURI(answer.license))
-           
+           //to add a space in the license 
+           answer.license = encodeURI(answer.license)
 
         })
        
