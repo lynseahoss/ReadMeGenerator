@@ -1,11 +1,8 @@
 const inquirer = require("inquirer")
 const axios = require("axios");
-const pdf = require("html-pdf");
 const js = require("./utils/generateMarkdown.js")
 const fs = require("fs")
-// one dot = look in same folder currently in  for the wanted js file (generateMarkDown.js)
-//two dots -- brings/moves up/back one directory/folder to look for js file 
-//{}= makes an object (key:value)
+
 
 const questions = [
 {
@@ -46,6 +43,7 @@ const questions = [
     choices: ["MIT", "Boost", "Apache 2.0", "GNU AGPLv3" ]
 
 },
+
 {
     name: "languages",
     type: "checkbox",
@@ -54,20 +52,17 @@ const questions = [
 },
 {
     name: "Libraries",
-    type: "checkbox",
+    type: "list",
     message: "Choose the Libraries used on project",
     choices: ["jQuery", "React.js", "Angular.js"]
 },
 {
     name: "css",
-    type: "input",
-    message: "Enter the CSS Framework used on project"
+    type: "list",
+    message: "Choose the CSS Framework used on project",
+    choices: ["BootStrap", "SemanticUi", "Bulma", "Foundation"]
 },
-{
-    name: "usage",
-    type: "input",
-    message: "Enter the User Story"
-},
+
 {
     name: "contributing",
     type: "input",

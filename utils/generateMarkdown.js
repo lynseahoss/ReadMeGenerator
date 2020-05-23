@@ -8,6 +8,7 @@ function generateMarkdown(data) {
 
   * [Steps to Install](#install)
   * [User Story](#usage)
+  * [User Acceptance](#acceptance)
   * [Project Technology](#technology)
   * [License](#license)
   * [Contributing Authors](#contributing)
@@ -15,6 +16,13 @@ function generateMarkdown(data) {
   * [Contact Information](#email)
   * [Profile Image](#image) 
   
+----
+## Steps to Install
+### ${data.install}
+
+
+## User Story
+### ${data.usage}
 
 
 `;
