@@ -8,10 +8,9 @@ function generateMarkdown(data) {
 
   * [Steps to Install](#install)
   * [Purpose of Application](#usage)
-  * [Project Technology](#technology)
   * [License](#license)
   * [Contributing Authors](#contributing)
-  * [Tests](#test)
+  * [Tests Performed](#test)
   * [Contact Information](#email)
   * [Profile Image](#image) 
   
@@ -25,8 +24,15 @@ ${data.usage}
 
 
 ## Project License
-### ${data.license}
+${data.license}
 
+## Contributing Authors
+${data.contributing}
+
+## Tests Performed
+${data.test}
+
+##
 
 `;
 }
