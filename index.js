@@ -43,11 +43,12 @@ function init() {
 //parameters are what go into ()s of a function to let developers know what the function expects
     inquirer.prompt(questions).then(function(answer){
         //promise function
-        axios.get("https://api.github.com/users/" + username) 
+        axios.get(`https://api.github.com/users/${answer.username}`) 
         //github api inside of .get()s githubURL + username (find out how to access github api username)
-        .then(res)
-        //.then gives info back
-        writeToFile()
+        //.then(res)
+        //.then gives info back in an object form
+
+        //writeToFile()
     })
 }
 
