@@ -36,6 +36,10 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
+    pdf.create(data, options).toFile(fileName, function(err, res) {
+        if (err) return console.log(err);
+        console.log(res); 
+      });
 }
 
 function init() {
@@ -45,10 +49,13 @@ function init() {
         //promise function
         axios.get(`https://api.github.com/users/${answer.username}`) 
         //github api inside of .get()s githubURL + username (find out how to access github api username)
-        //.then(res)
+        .then(res=> {
+            res.data.color = answer.color
+        })
+        
         //.then gives info back in an object form
 
-        //writeToFile()
+        writeToFile()
     })
 }
 
