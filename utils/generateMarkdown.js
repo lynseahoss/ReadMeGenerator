@@ -16,6 +16,7 @@ ${data.description}
   
 
 ## Steps to Install
+Process of how to install project in terminal:
   \`\`\`
   ${data.install}
   \`\`\`
