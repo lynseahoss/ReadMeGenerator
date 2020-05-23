@@ -17,11 +17,11 @@ function generateMarkdown(data) {
   
 ----
 ## Steps to Install
-### ${data.install}
+${data.install}
 
 
-## User Story
-### ${data.usage} 
+## Purpose of Application
+${data.usage} 
 
 
 ## Project License
