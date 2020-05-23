@@ -53,16 +53,26 @@ const questions = [
     message: "Enter the current running tests on project"
 },
 {
-    name: "quest1",
+    name: "email",
     type: "input",
-    message: "Enter any questions for the project"
+    message: "Enter your email"
+},
+{
+    name: "image",
+    type: "input",
+    message: "Enter URL Link to profile picture"
+},
+{
+    name: "email",
+    type: "input",
+    message: "Enter your email associated with Github"
 },
 
 ];
 
 
 function init() {
-
+    //prompting inquirer to run the questions and then make an object with user answers
     inquirer.prompt(questions).then(function(answer){
         
         axios.get(`https://api.github.com/users/${answer.username}`) 
@@ -71,7 +81,14 @@ function init() {
             console.log(encodeURI(answer.license))
            //to add a space in the license 
            answer.license = encodeURI(answer.license)
-
+           //writeFile will write/push user answers to README.md 
+            fs.writeFile("README.md", js({...answer, ...res}), err =>{
+                if (err){
+                    console.log(err)
+                    return
+                }
+                console.log("ReadMe created")
+            })
         })
        
         
@@ -80,4 +97,3 @@ function init() {
 }
 
 init();
-//res gives resolution
