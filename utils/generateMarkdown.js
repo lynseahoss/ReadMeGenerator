@@ -8,6 +8,7 @@ function generateMarkdown(data) {
 
   * [Steps to Install](#install)
   * [User Story](#usage)
+  * [Project Technology](#technology)
   * [License](#license)
   * [Contributing Authors](#contributing)
   * [Tests](#test)
