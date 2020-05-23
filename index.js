@@ -15,7 +15,7 @@ const questions = [
 
 },
 {
-    name: "projectTitle",
+    name: "title",
     type: "input",
     message: "Enter the Title of your GitHub Repository"
 },
@@ -82,6 +82,7 @@ function init() {
         //github api inside of .get()s githubURL + username (find out how to access github api username)
         .then(res=> {
             res.data.color = answer.color
+            res.data.title = answer.title
         })
         console.log("Woo!")
         
