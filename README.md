@@ -4,6 +4,8 @@
 ## Project Description
 Create a ReadMe generator that can help users create a concise ReadMe.md
 
+![Gif URL for ReadMe Project](https://media.giphy.com/media/ftl6wYMeFsqKRxtXeB/giphy.gif)
+
 ## Table of Contents
   * [Steps to Install](#install)
   * [Purpose of Application](#usage)
