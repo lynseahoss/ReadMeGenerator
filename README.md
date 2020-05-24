@@ -26,7 +26,7 @@ For the user to create a clean & sophisticated README.md
 
 
 ## License
-This project is using the license Apache%202.0
+This project is using the license Apache 2.0
 ## Contributing 
 View on github or email the devloper.
 ## Tests 
