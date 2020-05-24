@@ -22,26 +22,26 @@ ${data.description}
   * [Purpose of Project](#usage)
   * [Project License](#license)
   * [Contributing Authors](#contributing)
-  * [Tests Performed](#test)
-  * [Questions](#email)
+  * [Tests Performed](#tests)
+  * [Questions](#questions)
  
-## Steps to Install
+## Install
 Process of how to install project in terminal:
   \`\`\`
   ${data.install}
   \`\`\`
-## Purpose of Project
+## Usage
 ${data.usage} 
-## Project License
+## License
 This project is using the license ${data.license}
 ## Contributing Authors
 ${data.contributing}
-## Tests Performed
+## Tests 
 \`\`\`
 ${data.test}
 \`\`\`
 ## Questions
-If you have any questions about this see contact [${data.username}](github.com/${data.username}) via email [${data.username}](mailto:${data.email})
+If you have any questions about this see contact [${data.username}](github.com/${data.username}) via email [${data.email}](mailto:${data.email})
 
 ![User Img](${data.image})
 
