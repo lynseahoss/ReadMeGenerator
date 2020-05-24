@@ -1,5 +1,6 @@
 function gitHubRepoURL(username, title) {
- 
+  const gitHubTitle = title.toLowerCase().split(" ").join("-");
+  
 }
 
 function generateMarkdown(data) {
