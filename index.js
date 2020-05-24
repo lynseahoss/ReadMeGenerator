@@ -43,7 +43,7 @@ const questions = [
 {
     name: "contributing",
     type: "input",
-    message: "Enter what the user know about contributing to this repository"
+    message: "Enter what the contributing factors for this repository"
 },
 {
     name: "test",
