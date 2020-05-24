@@ -51,7 +51,7 @@ ${data.test}
 \`\`\`
 
 ## Questions
-If you have any questions about this see contact [${data.username}] via email ${data.email}
+If you have any questions about this see contact [${data.username}](github.com/${data.username}) via email [${data.username}](mailto:${data.email})
 
 
 
