@@ -1,6 +1,10 @@
 function gitHubRepoURL(username, title) {
   const gitHubTitle = title.toLowerCase().split(" ").join("-");
-  
+  return `https://github.com/${username}/${gitHubTitle}`;
+}
+
+function licenseBadge(license, username, title) {
+ 
 }
 
 function generateMarkdown(data) {
