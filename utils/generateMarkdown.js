@@ -25,37 +25,23 @@ ${data.description}
   * [Tests Performed](#test)
   * [Questions](#email)
  
-  
-
 ## Steps to Install
 Process of how to install project in terminal:
   \`\`\`
   ${data.install}
   \`\`\`
-
 ## Purpose of Project
 ${data.usage} 
-
-
 ## Project License
 This project is using the license ${data.license}
-
-
 ## Contributing Authors
 ${data.contributing}
-
-
 ## Tests Performed
 \`\`\`
 ${data.test}
 \`\`\`
-
 ## Questions
 If you have any questions about this see contact [${data.username}](github.com/${data.username}) via email [${data.username}](mailto:${data.email})
-
-
-
-## Profile Image
 
 ![User Img](${data.image})
 
