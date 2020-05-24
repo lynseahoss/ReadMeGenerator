@@ -19,12 +19,12 @@ ${data.description}
 
 ## Table of Contents
   * [Steps to Install](#install)
-  * [Purpose of Application](#usage)
-  * [License](#license)
+  * [Purpose of Project](#usage)
+  * [Project License](#license)
   * [Contributing Authors](#contributing)
   * [Tests Performed](#test)
-  * [Contact Information](#email)
-  * [Profile Image](#image) 
+  * [Questions](#email)
+ 
   
 
 ## Steps to Install
@@ -54,6 +54,8 @@ ${data.test}
 If you have any questions about this see contact [${data.username}](github.com/${data.username}) via email [${data.username}](mailto:${data.email})
 
 
+
+## Profile Image
 
 ![User Img](${data.image})
 
