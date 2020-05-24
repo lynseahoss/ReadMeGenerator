@@ -4,12 +4,15 @@ function gitHubRepoURL(username, title) {
 }
 
 function licenseBadge(license, username, title) {
- 
+  if (license !== "None") {
+    return `[![GitHub license](https://img.shields.io/badge/license-${license}-pink.svg)](${gitHubRepoURL(username, title)})`
+  }
+  return ''
 }
 
 function generateMarkdown(data) {
   return `
-# ${data.title} ![License](https://img.shields.io/badge/license-${data.license}-pink)
+# ${data.title} ${licenseBadge(data.license, data.username, data.title)}
 
 ## Project Description
 ${data.description}
