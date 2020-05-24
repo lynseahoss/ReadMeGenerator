@@ -11,25 +11,25 @@ Create a ReadMe generator that can help users create a concise ReadMe.md
   * [Purpose of Project](#usage)
   * [Project License](#license)
   * [Contributing Authors](#contributing)
-  * [Tests Performed](#test)
-  * [Questions](#email)
+  * [Tests Performed](#tests)
+  * [Questions](#questions)
  
   
 
-## Steps to Install
+## Install
 Process of how to install project in terminal:
   ```
   npm i
   ```
-## Purpose of Project
+## Usage
 For the user to create a clean & sophisticated README.md   
 
 
-## Project License
+## License
 This project is using the license Apache%202.0
-## Contributing Authors
+## Contributing 
 View on github or email the devloper.
-## Tests Performed
+## Tests 
 ```
 npm test
 ```
