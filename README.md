@@ -8,12 +8,12 @@ Create a ReadMe generator that can help users create a concise ReadMe.md
 
 ## Table of Contents
   * [Steps to Install](#install)
-  * [Purpose of Application](#usage)
-  * [License](#license)
+  * [Purpose of Project](#usage)
+  * [Project License](#license)
   * [Contributing Authors](#contributing)
   * [Tests Performed](#test)
-  * [Contact Information](#email)
-  * [Profile Image](#image) 
+  * [Questions](#email)
+ 
   
 
 ## Steps to Install
