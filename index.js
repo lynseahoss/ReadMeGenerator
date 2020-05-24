@@ -30,7 +30,7 @@ const questions = [
 {
     name: "usage",
     type: "input",
-    message: "Enter the purpose of this project"
+    message: "Enter what the purpose of this project is for the user"
 },
 
 {
