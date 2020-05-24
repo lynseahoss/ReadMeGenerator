@@ -34,8 +34,9 @@ ${data.contributing}
 
 
 ## Tests Performed
+\`\`\`
 ${data.test}
-
+\`\`\`
 
 ## Contact Information
 ${data.email}
