@@ -50,8 +50,9 @@ ${data.contributing}
 ${data.test}
 \`\`\`
 
-## Contact Information
-${data.email}
+## Questions
+If you have any questions about this see contact [${data.username}] via email ${data.email}
+
 
 
 ![User Img](${data.image})
